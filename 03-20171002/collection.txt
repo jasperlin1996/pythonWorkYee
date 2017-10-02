@@ -1,0 +1,8 @@
+1. len(s)
+2. len(set(s))
+3. ''.join(list_s)
+4. len(set(s) & set(t))
+5. len(set(s+t))
+6. len(set(s) - set(t)
+7. import collections
+   collections.Counter(s+t).most_common(1)
