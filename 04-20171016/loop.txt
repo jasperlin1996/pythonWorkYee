@@ -1,0 +1,19 @@
+import itertools
+alist=[1,2,-1,2,-3,5,6,-4]
+
+for i in alist:
+	print(i)
+
+for i,value in enumerate(alist):
+	print(i,value)
+
+for i in range(len(alist)-1,-1,-1):
+	if alist[i] < 0:
+		del alist[i]
+
+for i,j,k in zip(alist,blist,clist):
+	print(i,j,k)
+
+daylist = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
+for i in itertools.cycle(daylist):
+	print(i)
